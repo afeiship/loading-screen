@@ -1,0 +1,11 @@
+{
+  "name": "loading-screen",
+  "version": "1.0.0",
+  "description": "Pure loading-screen for spa.",
+  "homepage": "https://github.com/afeiship/loading-screen",
+  "author": {
+    "name": "afeiship",
+    "email": "1290657123@qq.com"
+  },
+  "license": "MIT"
+}
