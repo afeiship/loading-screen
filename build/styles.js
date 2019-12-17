@@ -11,10 +11,10 @@
   gulp.task('styles', function() {
     return gulp
       .src('src/*.scss')
-      .pipe($.feizheng.pkgHeader())
       .pipe(gulp.dest('dist'))
       .pipe($.sass({ outputStyle: 'compressed' }))
       .pipe($.postcss([autoprefixer()]))
+      .pipe($.feizheng.pkgHeader())
       .pipe(gulp.dest('dist'))
       .pipe(gulp.dest('public'));
   });
