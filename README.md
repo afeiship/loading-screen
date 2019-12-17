@@ -3,9 +3,10 @@
 
 ## usage
 ```html
+<!--1. add styles -->
+<link rel="stylesheet" type="text/css" href="//unpkg.com/@feizheng/loading-screen@1.0.2/dist/style.css"/>
 
-
-<!-- template -->
+<!--2. add html template -->
 <section class="loading-screen">
   <div class="spinner">
     <div class="rect1"></div>
