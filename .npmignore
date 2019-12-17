@@ -6,3 +6,10 @@ test
 src
 build
 gulpfile.js
+
+
+.editorconfig
+.prettierrc
+Gemfile
+Rakefile
+server.js
