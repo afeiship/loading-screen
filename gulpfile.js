@@ -1,6 +1,18 @@
-const gulp = require('gulp');
+(function() {
+  'use strict';
 
-exports.default = function () {
-  return gulp.src('src/*.html')
-    .pipe(gulp.dest('docs/'));
-}
+  var path = require('path');
+  var gulp = require('gulp');
+  var argv = require('yargs').argv;
+  var fs = require('fs');
+  var $ = require('gulp-load-plugins')({
+    pattern: ['gulp-*', 'gulp.*', 'del']
+  });
+
+  //import
+  fs.readdirSync('./build').map(function(file) {
+    require('./build/' + file);
+  });
+
+  gulp.task('default', gulp.series(['clean', 'styles']));
+})();
