@@ -1,6 +1,6 @@
 {
   "name": "@feizheng/loading-screen",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Pure loading-screen for spa.",
   "homepage": "https://github.com/afeiship/loading-screen",
   "author": {
@@ -11,19 +11,19 @@
   "license": "MIT",
   "scripts": {
     "build": "gulp",
-    "start": "node ./server.js"
+    "start": "node server.js"
   },
   "devDependencies": {
-    "@feizheng/gulp-pkg-header": "^1.0.1",
+    "@feizheng/gulp-pkg-header": "^1.0.4",
     "@feizheng/rake-git": "^1.2.1",
-    "autoprefixer": "^9.7.3",
+    "autoprefixer": "^9.8.6",
     "del": "^5.1.0",
     "express": "^4.17.1",
     "gulp": "^4.0.2",
     "gulp-header": "^2.0.9",
-    "gulp-load-plugins": "^2.0.1",
+    "gulp-load-plugins": "^2.0.3",
     "gulp-postcss": "^8.0.0",
-    "gulp-sass": "^4.0.2"
+    "gulp-sass": "^4.1.0"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"

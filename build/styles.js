@@ -16,6 +16,6 @@
       .pipe($.postcss([autoprefixer()]))
       .pipe($.feizheng.pkgHeader())
       .pipe(gulp.dest('dist'))
-      .pipe(gulp.dest('public'));
+      .pipe(gulp.dest('docs'));
   });
 })();

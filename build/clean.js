@@ -1,5 +1,4 @@
-(function() {
-
+(function () {
   'use strict';
   var gulp = require('gulp');
   var $ = require('gulp-load-plugins')({
@@ -7,8 +6,7 @@
   });
 
   //clean
-  gulp.task('clean', function() {
-    return $.del('dist');
+  gulp.task('clean', function () {
+    return $.del(['dist', 'docs']);
   });
-
-}());
+})();
