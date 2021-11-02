@@ -1,6 +1,6 @@
 {
-  "name": "@feizheng/loading-screen",
-  "version": "1.1.0",
+  "name": "@jswork/loading-screen",
+  "version": "1.0.0",
   "description": "Pure loading-screen for spa.",
   "homepage": "https://github.com/afeiship/loading-screen",
   "author": {
@@ -26,6 +26,7 @@
     "gulp-sass": "^4.1.0"
   },
   "publishConfig": {
+    "access": "public",
     "registry": "https://registry.npmjs.org/"
   }
 }
