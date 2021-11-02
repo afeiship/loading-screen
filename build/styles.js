@@ -4,7 +4,7 @@
   var gulp = require('gulp');
   var autoprefixer = require('autoprefixer');
   var $ = require('gulp-load-plugins')({
-    pattern: ['gulp-*', 'gulp.*', 'del','@feizheng/gulp-*']
+    pattern: ['gulp-*', 'gulp.*', 'del','@jswork/gulp-*']
   });
 
   //styles
@@ -14,7 +14,7 @@
       .pipe(gulp.dest('dist'))
       .pipe($.sass({ outputStyle: 'compressed' }))
       .pipe($.postcss([autoprefixer()]))
-      .pipe($.feizheng.pkgHeader())
+      .pipe($.jswork.pkgHeader())
       .pipe(gulp.dest('dist'))
       .pipe(gulp.dest('docs'));
   });

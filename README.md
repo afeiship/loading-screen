@@ -9,7 +9,7 @@
 ## usage
 ```html
 <!--1. add styles -->
-<link rel="stylesheet" type="text/css" href="//https://cdn.jsdelivr.net/npm/@feizheng/loading-screen/dist/index.css"/>
+<link rel="stylesheet" type="text/css" href="//https://cdn.jsdelivr.net/npm/@jswork/loading-screen/dist/index.css"/>
 
 <!--2. add html template -->
 <section class="loading-screen">
@@ -30,14 +30,14 @@
 ## license
 Code released under [the MIT license](https://github.com/afeiship/loading-screen/blob/master/LICENSE.txt).
 
-[version-image]: https://img.shields.io/npm/v/@feizheng/loading-screen
-[version-url]: https://npmjs.org/package/@feizheng/loading-screen
+[version-image]: https://img.shields.io/npm/v/@jswork/loading-screen
+[version-url]: https://npmjs.org/package/@jswork/loading-screen
 
-[license-image]: https://img.shields.io/npm/l/@feizheng/loading-screen
+[license-image]: https://img.shields.io/npm/l/@jswork/loading-screen
 [license-url]: https://github.com/afeiship/loading-screen/blob/master/LICENSE.txt
 
-[size-image]: https://img.shields.io/bundlephobia/minzip/@feizheng/loading-screen
+[size-image]: https://img.shields.io/bundlephobia/minzip/@jswork/loading-screen
 [size-url]: https://github.com/afeiship/loading-screen/blob/master/dist/loading-screen.min.js
 
-[download-image]: https://img.shields.io/npm/dm/@feizheng/loading-screen
-[download-url]: https://www.npmjs.com/package/@feizheng/loading-screen
+[download-image]: https://img.shields.io/npm/dm/@jswork/loading-screen
+[download-url]: https://www.npmjs.com/package/@jswork/loading-screen
