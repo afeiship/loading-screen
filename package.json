@@ -7,7 +7,7 @@
     "name": "afeiship",
     "email": "1290657123@qq.com"
   },
-  "main": "dist/style.css",
+  "main": "dist/index.css",
   "license": "MIT",
   "scripts": {
     "build": "gulp",
