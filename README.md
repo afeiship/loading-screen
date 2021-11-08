@@ -9,7 +9,9 @@
 ## usage
 ```html
 <!--1. add styles -->
-<link rel="stylesheet" type="text/css" href="//https://cdn.jsdelivr.net/npm/@jswork/loading-screen/dist/index.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@jswork/loading-screen/dist/index.css"/>
+<!-- OR -->
+<link rel='stylesheet' type='text/css' href='https://unpkg.com/@jswork/loading-screen/dist/index.css' />
 
 <!--2. add html template -->
 <section class="loading-screen">
