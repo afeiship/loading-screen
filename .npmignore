@@ -10,6 +10,5 @@ gulpfile.js
 
 .editorconfig
 .prettierrc
-Gemfile
-Rakefile
-server.js
+.release-it.json
+docs
