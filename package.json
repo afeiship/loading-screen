@@ -11,7 +11,8 @@
   "license": "MIT",
   "scripts": {
     "build": "gulp",
-    "start": "node server.js"
+    "docs": "serve docs",
+    "release": "release-it"
   },
   "devDependencies": {
     "@jswork/gulp-pkg-header": "^1.0.4",
@@ -22,7 +23,9 @@
     "gulp-header": "^2.0.9",
     "gulp-load-plugins": "^2.0.3",
     "gulp-postcss": "^8.0.0",
-    "gulp-sass": "^4.1.0"
+    "gulp-sass": "^5.1.0",
+    "release-it": "^15.2.0",
+    "sass": "^1.54.0"
   },
   "publishConfig": {
     "access": "public",

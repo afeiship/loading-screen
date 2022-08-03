@@ -7,6 +7,6 @@
 
   //clean
   gulp.task('clean', function () {
-    return $.del(['dist', 'docs']);
+    return $.del(['dist']);
   });
 })();

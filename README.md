@@ -24,6 +24,18 @@
   </div>
   <span>应用加载中</span>
 </section>
+
+<!-- 3. optitional: configuration -->
+<head>
+  <style>
+  .loading-screen{
+    --ls-opts-top: 37.5%;
+    --ls-opts-bar-color: #1890ff;
+    --ls-opts-bar-width: 4px;
+    --ls-opts-text-color: #999;
+  }
+  </style>
+</head>
 ```
 
 ## preview
