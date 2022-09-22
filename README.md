@@ -13,17 +13,9 @@
 <!-- OR -->
 <link rel='stylesheet' type='text/css' href='https://unpkg.com/@jswork/loading-screen/dist/index.css' />
 
-<!--2. add html template -->
-<section class="loading-screen">
-  <div class="spinner">
-    <div class="rect1"></div>
-    <div class="rect2"></div>
-    <div class="rect3"></div>
-    <div class="rect4"></div>
-    <div class="rect5"></div>
-  </div>
-  <span>应用加载中</span>
-</section>
+<!--2. add lskit -->
+<script defer src="https://unpkg.com/@jswork/loading-screen/dist/lskit.js"></script>
+<script>lskit()</script>
 
 <!-- 3. optitional: configuration -->
 <head>
@@ -36,6 +28,16 @@
   }
   </style>
 </head>
+```
+
+## lskit options
+```json
+{
+  "id": "root",
+  "lang": "language",
+  "en-US": "Loading...",
+  "zh-CN": "应用加载中...",
+}
 ```
 
 ## preview
