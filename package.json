@@ -24,6 +24,7 @@
     "gulp-load-plugins": "^2.0.3",
     "gulp-postcss": "^8.0.0",
     "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
     "release-it": "^15.2.0",
     "sass": "^1.54.0"
   },
