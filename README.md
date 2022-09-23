@@ -14,8 +14,8 @@
 <link rel='stylesheet' type='text/css' href='https://unpkg.com/@jswork/loading-screen/dist/index.css' />
 
 <!--2. add lskit -->
-<script defer src="https://unpkg.com/@jswork/loading-screen/dist/lskit.js"></script>
-<script>lskit()</script>
+<script src="https://unpkg.com/@jswork/loading-screen/dist/lskit.js"></script>
+<script>window.lskit()</script>
 
 <!-- 3. optitional: configuration -->
 <head>
