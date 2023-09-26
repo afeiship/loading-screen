@@ -2,8 +2,8 @@
  * name: @jswork/loading-screen
  * description: Pure loading-screen for spa.
  * homepage: https://github.com/afeiship/loading-screen
- * version: 1.0.5
- * date: 2023-09-26 09:16:15
+ * version: 1.0.6
+ * date: 2023-09-26 09:21:36
  * license: MIT
  */
 
