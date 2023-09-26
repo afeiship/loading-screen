@@ -4,19 +4,32 @@
   --ls-opts-bar-color: #1890ff;
   --ls-opts-bar-width: 4px;
   --ls-opts-text-color: #999;
-
+  --ls-opts-error-text-color: red;
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  user-select: none;
   position: absolute;
   left: 50%;
   top: var(--ls-opts-top);
   transform: translate(-50%, -50%);
   color: var(--ls-opts-text-color);
   font-size: 12px;
+  transition: 0.3s;
+
+  &.load-error {
+    color: var(--ls-opts-error-text-color);
+    cursor: pointer;
+    &:active {
+      color: var(--ls-opts-text-color);
+      opacity: 0.5;
+    }
+  }
+
   > .spinner {
     width: 60px;
     height: 40px;
     text-align: center;
     font-size: 10px;
-    margin-bottom: 10px;
+    margin: 0 auto 6px;
     & > div {
       background-color: var(--ls-opts-bar-color);
       height: 100%;
