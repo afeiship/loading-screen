@@ -18,14 +18,13 @@ window.lskit = function (options) {
     }
   };
 
-  const t = function (key) {
-    const params = new URLSearchParams(window.location.search);
-    const lang = params.get(defaults.lang) || navigator.language || 'en-US';
-    return locales[lang][key];
-  };
-
   const opts = Object.assign(defaults, options);
   const root = document.getElementById(opts.id);
+  const t = function (key) {
+    const params = new URLSearchParams(window.location.search);
+    const lang = opts.locale || params.get(opts.lang) || navigator.language || 'en-US';
+    return locales[lang][key];
+  };
 
   root.innerHTML = `<section class="loading-screen">
     <div class="spinner">
