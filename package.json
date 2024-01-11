@@ -1,6 +1,6 @@
 {
   "name": "@jswork/loading-screen",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Pure loading-screen for spa.",
   "homepage": "https://github.com/afeiship/loading-screen",
   "author": {
@@ -37,6 +37,8 @@
     "spa",
     "screen",
     "spinkit",
-    "lskit"
+    "lskit",
+    "service-worker",
+    "sw"
   ]
 }
